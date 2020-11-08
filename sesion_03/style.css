@@ -1,9 +1,22 @@
 .container-header{
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-color: aquamarine;
 }
 
-p{
-    color: blue;
+
+
+.container-section-promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+
+}
+
+.item-article{
+    width: 30%;
+    height: 100px;
+    background-color: blueviolet;
+
 }
