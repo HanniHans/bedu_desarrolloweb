@@ -1,0 +1,130 @@
+.container{
+
+    display: flex; 
+    /* da posición horizontal por que es su eje principal */
+    /* La dirección que tiene como Default es row */
+    
+    /* flex-direction: row; */
+    /* row-reverse el hijo final lo pone al principio en horizontal */
+    /* column lo pone en vertical */
+
+    /* flex-wrap: wrap; */
+    /* wrap hace que se desborden */
+    /* nowrap evita que se desborden */
+
+    justify-content: space-between;
+    /* cambiar width a 10px items */
+    /* start agrupara todos los items en el principio de */
+    /* Space-between espacio entre los items */
+
+    /* align-items: center; */
+
+    /* align-content: space-around; */
+
+    /* flex-flow:  row wrap;  */
+    /* <flex-direction><flex-wrap> 
+    Atajo para declarar direction y wrap */
+    
+    width: 400px;
+    height: 400px;
+    background-color: salmon;
+
+
+}
+
+.item{
+
+    background-color: royalblue;
+    width: 10%;
+    height: 50px;
+
+}
+
+.reto-container{
+    display: flex;
+    justify-content: center;
+}
+
+.reto-container h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.reto-container p{
+    font-size: 20px;
+    color: slategray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.reto-item{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+img{
+    width: 80%;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: slategray 1px solid;
+    transition: transform .2s;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+/* GRID */
+.features{
+    display: grid;
+    /* grid-template-columns: repeat(2, 300px); */
+    /* grid-template-columns: 500px 1fr; */
+    grid-template-columns: 1fr 1fr;
+}
+
+article{
+    margin: 10px;
+    width: 95%;
+    height: 70px;
+    border: gray 1px solid;
+}
+
+.reto-features{
+    display: grid;
+    grid-template-columns: repeat(2,700px);
+}
+
+/*grid-template-area*/
+.item1 { grid-area: header;   }
+
+.item2{ grid-area: menu;}
+
+.item3{ grid-area: main; }
+
+.item4{ grid-area: right; }
+
+.item5{ grid-area: footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header header header header'
+        'main main right menu'
+        'footer footer footer footer'    
+    ;
+    gap: 10px;
+    background-color: indigo;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+}
