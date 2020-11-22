@@ -1,0 +1,63 @@
+.titulo-elemento1{
+    color: #025157;
+    font-family: sans-serif;
+    font-size: 57px;
+    letter-spacing: -3px;
+    line-height: 63px;
+
+}
+
+#par-elemento1{
+    color: #46484c;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sign-up-form_text{
+    color: #8b8b8b;
+}
+
+.titulo-elemento2{
+    color: #4a4a4a;
+    font-size: 13px;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    text-align: center;
+    line-height: 19.5px;
+    margin-bottom: 50px;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.titulo-elemento3{
+    color: #025157;
+    font-family: sans-serif;
+    font-size: 57px;
+    letter-spacing: -3px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.par-elemento3{
+    color: #4a4a4a;
+    font-size: 18px;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    text-align: center;
+    line-height: 19.5px;
+    margin-bottom: 50px;
+
+}
+
+.title3{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #343434;
+}
+
+.p-title3{
+    color: #4a4a4a;
+    font-size: 18px;
+}
