@@ -1,0 +1,55 @@
+.spotify_premiun_title{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.Disfruta_3_meses{
+    color: black;
+    font-size: 50px;
+}
+
+.p_musica{
+    color: black;
+}
+
+.p_plan{
+    color: black;
+    font-size: 10px;
+}
+
+.btn_meses{
+    padding: 10px;
+    font-size: 13px;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5px;
+    border: black solid 1px; 
+
+}
+
+.title_c2{
+    color: #1ed760;
+    font-size: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
+
+}
+.subtitle_c2{
+    color: #1ed760;
+    font-size: 50px;
+}
+.p_c2{
+    color: #1ed760;
+
+}
+.btn_c2{
+
+    padding: 10px;
+    font-size: 13px;
+    background-color:#1ed760;
+    color: blanchedalmond;
+    border-radius: 5px;
+    border: #1ed760 solid 1px; 
+}
+

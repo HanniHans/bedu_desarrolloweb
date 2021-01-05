@@ -1,0 +1,11 @@
+// @import './global';
+//@import './_global'; otra forma
+
+// .blog{
+//     background-color: $white;
+//     max-width: unset;
+//     padding: 5% 10%;
+// }
+
+@import './herencia';
+@import './mixin';
